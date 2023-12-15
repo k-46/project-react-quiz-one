@@ -1,0 +1,53 @@
+.resultBox {
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    border-left: 6px solid #8686f3;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.result {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultDetails {
+    display: flex;
+    /* border: 2px solid; */
+    width: 90%;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+
+.resultButtons {
+    height: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.resultButtons button {
+    height: 60%;
+}
+
+#playAgainButton {
+    color: #8686f3;
+    border: 3px solid #8686f3;
+    width: 30%;
+}
+
+#bk2Hme {
+    width: 30%;
+    border: 3px solid #008001;
+    color: #008001;
+}
