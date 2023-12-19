@@ -1,14 +1,19 @@
+.whole-quiz {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 .quiz {
     width: 70%;
     background-color: white;
     height: 80%;
     border-left: 6px solid #8686f3;
     padding: 30px;
-    /* display: flex; */
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
 }
 
 .questionBlock {
@@ -69,6 +74,7 @@
     height: 100%;
     background-color: #3e7eaa;
     border-style: hidden;
+    color: white;
     cursor: pointer;
     width: 30%;
 }
@@ -79,6 +85,8 @@
     border-style: hidden;
     cursor: pointer;
     width: 30%;
+    color: white;
+
 }
 
 #quitButton {
@@ -86,6 +94,7 @@
     background-color: #ff0000;
     border-style: hidden;
     cursor: pointer;
+    color: white;
     width: 30%;
 }
 

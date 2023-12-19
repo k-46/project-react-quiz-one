@@ -4,7 +4,9 @@ import "./QuizComponent.css";
 class QuizComponent extends Component {
   render() {
     return (
-      <div className="quiz">
+        <div className="whole-quiz">
+        <div className="quiz">
+
         <div className="questionBlock">
           <h2>Question</h2>
           <p id="questionNo">1 of 15</p>
@@ -25,6 +27,7 @@ class QuizComponent extends Component {
           </div>
         </div>
       </div>
+        </div>
     );
   }
 }

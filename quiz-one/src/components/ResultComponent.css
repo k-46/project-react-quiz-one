@@ -13,7 +13,7 @@
 
 .result {
     width: 60%;
-    height: 60%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
